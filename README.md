@@ -16,6 +16,12 @@ AWSume has been conveniently wrapped into a Python package and installable with 
 pip install awsume
 ```
 
+if does not work, use the following:
+
+``` bash
+sudo -H pip install awsume --ignore-installed six
+```
+
 The installer places the python and shell scripts into your python directory. If you're using `Bash` or `Zsh`, the installer will add an alias definition (sources awsume when it's called) to their resource control file, either `.bash_alias`, `.bashrc`, `.bash_profile`, or `.zshrc`. When uninstalling AWSume, the alias definition will not be removed.
 
 Once you have AWSume installed, you're ready to set up AWSume!
